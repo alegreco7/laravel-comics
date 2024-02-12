@@ -66,8 +66,35 @@ footer {
     background-image: url('../images/footer-bg.jpg');
 
     .bg-footer {
-        height: 500px;
+        height: 100%;
         background-image: url('../images/dc-logo-bg.png');
         background-size: cover;
+    }
+
+    .lists-group {
+        display: flex;
+        gap: 30px;
+        margin: 20px 0;
+        color: white;
+
+        .footer-list ul {
+            padding-left: 0;
+            list-style: none;
+            color: #717171;
+            font-size: 14px;
+        }
+    }
+
+    .my-btn {
+        padding: 10px 20px;
+        border: 2px solid rgb(20, 90, 255);
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        transition: 0.8s;
+
+        &:hover {
+            background-color: rgb(20, 90, 255);
+        }
     }
 }
