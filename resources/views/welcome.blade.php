@@ -10,17 +10,30 @@
 </head>
 
 <body>
-
     @include('partials.header')
     <main class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-white">Home</h1>
-                </div>
+        <div class="jumbo">
+
+        </div>
+        <div class="container py-5">
+            <div class="row row-gap-4">
+                @foreach ($comics as $comic)
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <div class="comic">
+                            <div class="comic-img">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                            </div>
+                            <div class="comic-title">
+                                {{ $comic['title'] }}
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
             </div>
+
         </div>
     </main>
+
 </body>
 
 </html>
