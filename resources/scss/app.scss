@@ -46,3 +46,28 @@ header {
         color: white;
     }
 }
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        width: 50px;
+    }
+
+    h6 {
+        color: white;
+    }
+}
+
+// FOOTER
+footer {
+    background-image: url('../images/footer-bg.jpg');
+
+    .bg-footer {
+        height: 500px;
+        background-image: url('../images/dc-logo-bg.png');
+        background-size: cover;
+    }
+}
