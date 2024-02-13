@@ -20,16 +20,16 @@
             </div>
             <div class="col-10">
                 <ul class="my-list">
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    <li><a href="{{ route('characters') }}">CHARACTERS</a></li>
+                    <li><a href="{{ route('comics') }}" class="">COMICS</a></li>
+                    <li><a href="{{ route('movies') }}" class="">MOVIES</a></li>
+                    <li><a href="{{ route('tv') }}" class="">TV</a></li>
+                    <li><a href="{{ route('games') }}" class="">GAMES</a></li>
+                    <li><a href="{{ route('collectibles') }}" class="">COLLECTIBLES</a></li>
+                    <li><a href="{{ route('videos') }}" class="">VIDEOS</a></li>
+                    <li><a href="{{ route('fans') }}" class="">FANS</a></li>
+                    <li><a href="{{ route('news') }}" class="">NEWS</a></li>
+                    <li><a href="{{ route('shop') }}" class="">SHOP</a></li>
                 </ul>
             </div>
         </div>
